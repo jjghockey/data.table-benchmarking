@@ -1,4 +1,4 @@
-# data.table-benchmarking
+## data.table-benchmarking
 A benchmarking test between data.table functions and equivalent dplyr functions. 
 
 001_mk_data.r - Captures data from the American Community Survey (https://www.census.gov/programs-surveys/acs/).  This data is not being analyzed.  It is used as dummy data to test the efficiency of data.table functions versus dplyr functions.  This process creates a new file called 001_acs.rds.  This file is too large for github.  Thus it is not saved. 
