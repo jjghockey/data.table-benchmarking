@@ -28,4 +28,4 @@ All benchmarking was done in sequence starting with data.table first and then dp
   Summarizes the comparison between data.table and dplyr for each of the command types executed. 
 
 ## 005_run_all.r - 
-  source() executes each r script (001, 002, 003, and 004)
+  source() executes each r script (002, 003, and 004)
