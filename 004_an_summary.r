@@ -153,15 +153,14 @@
 		p<-p+theme(axis.text.x = element_text(size= rel(1.5)))
 		p<-p+annotate("text", label="data.table() is faster", x=8, y=0.90)
 		p<-p+geom_segment(arrow=arrow(), x=8, xend=8, y=1.70, yend=2.10)
-		p<-p+geom_segment(x=8.5, xend=8.5, y=0, yend=10.00, color="red")
 		plt5<-p
 	
 #V. Output
 	ggsave(file="./004_plt1.png", plt1, height=8, width=11)
-	ggsave(file="./004_plt2.png", plt1, height=8, width=11)
-	ggsave(file="./004_plt3.png", plt1, height=8, width=11)
-	ggsave(file="./004_plt4.png", plt1, height=8, width=11)
-	ggsave(file="./004_plt5.png", plt1, height=8, width=11)
+	ggsave(file="./004_plt2.png", plt2, height=8, width=11)
+	ggsave(file="./004_plt3.png", plt3, height=8, width=11)
+	ggsave(file="./004_plt4.png", plt4, height=8, width=11)
+	ggsave(file="./004_plt5.png", plt5, height=8, width=11)
 	
 	fwrite(file="./004_tbl.csv",tbl_sum)
 	
